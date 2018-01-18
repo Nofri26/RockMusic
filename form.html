@@ -1,0 +1,50 @@
+<html>
+<head>
+<title>Form</title>
+<style>
+body {
+    background: url(img/oly.jpg) no-repeat	 ;
+    background-size: 100% 100%;
+	margin: 10px 40px 10px 70px;
+	}
+</style>
+</head>
+<body>
+<h1 align="center">~FORM PENDAFTARAN~</h1>
+<br>
+<hr size="5" color="navy">
+<p> Isi data dibawah ini dengan benar</p>
+<br>
+<form method="post" action="formpendaftaran.html">
+	<table>
+		<tr><td><b>Nama</b></td>
+			<td><input name="Nama" type="text"  size="30" maxlength="20"></td></tr>
+		<tr><td><b>Email</b></td>
+			<td><input name="Email" type="text" size="30" maxlengt="30"></td>
+		<tr><td><b>Password</b></td>
+			<td><input name="Password" type="text" size="30" maxlengt="30"></td>
+		<tr><td><b>Alamat</b></td>
+			<td><textarea name="Alamat" cols="30" rows="5" maxlength="200"></textarea></td>
+		<tr><td><b>Agama</b></td>
+			<td><select name="agama" size="1">
+			<option>Islam</option>
+			<option>Hindu</option>
+			<option>Budha</option>
+			<option>Kristen</option>
+			<option>Lainnya</option></select></td></tr>
+		<tr><td><b>Jenis Kelamin</b></td>
+			<td><input checked type="radio" name="Jenis Kelamin" value="pria">Pria
+				<input type="radio" name="Jenis Kelamin" value="wanita">Wanita</td>
+		<tr><td><b>Hobi</b></td>
+			<td><input type="checkbox" name="Olahraga"/>Olahraga
+			<input type="checkbox" name="BermainGame"/>Bermain Game
+			<input type="checkbox" name="Fotografi"/>Fotografi
+			<input type="checkbox" name="Traveling"/>Traveling
+			<input type="checkbox" name="Bermain Musik"/>Bermain Musik
+			</td>	
+	</table>	
+	<input type="Submit" value="Send Info"> <input type="Reset" value="Clear Form"> 
+</form>	
+<a href="tengah.html"><u>Back to Homepage</u>
+</body>
+</html>
